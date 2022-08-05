@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>开心消消乐详情</title>
+		<link href="博客详情.css" rel="stylesheet" type="text/css">
+		<style>
+			aside #sl{
+				width: 90px;
+				height: 113px;
+				background: url(博客详情_Images/游戏适龄提示.jfif) no-repeat;
+				background-position: -100px -110px;
+				border-radius: 5px;
+				margin: 0 auto;
+			}
+			ul{
+			    width: 1200px;
+			    height: 360px;
+			    margin: 20px auto;
+			    overflow: hidden;
+				position: relative;
+			}
+			ul li{
+				list-style: none;
+				width: 160px;
+				height: 360px;
+				background-color: red;
+				float: left;
+				transition: width 1s;
+			}
+			ul:hover li{
+				width: 100px;
+			}
+			ul li:hover{
+				width: 800px;
+			}
+			.new{
+				width: 635px;
+				margin: 0 auto;
+			}
+			#open{
+				display: block;
+			}
+			#close{
+				display: none;
+			}
+			#open1{
+				display: inline-block;
+				width: 125px;
+				line-height: 50px;
+				color: #d8f5ff;
+				height: 50px;
+				cursor: pointer;
+			}
+			#close1{
+				display: inline-block;
+				width: 125px;
+				line-height: 50px;
+				color: #d8f5ff;
+				height: 50px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<video src="博客详情_Images/开心消消乐.mp4" class="bjing" autoplay loop muted></video>
+		<header>
+			<nav>
+				<h1><a>游戏<span id="gy">公园</span></a></h1>
+				<div id="bknv">
+					<a href="html/index.html"><h5>主页</h5></a>
+					<a href="html作业/游戏列表1-7.html"><h5>博客</h5></a>
+					<a href="html作业/关于我们1-7.html"><h5>关于我们</h5></a>
+				</div>
+			</nav>
+		</header>
+		<aside>
+			<img src="博客详情_Images/开心消消乐二维码.jpg" width="160px" />
+			<div class="apple">
+				<img src="博客详情_Images/苹果 (1).svg" width="40px"/>
+				<div>
+					<p>App Store</p>
+					<p>下载</p>
+				</div>
+			</div>
+			<div class="android">
+				<img src="博客详情_Images/安卓 (1).svg" width="40px"/>
+				<div>
+					<p>Android</p>
+					<p>下载</p>
+				</div>
+			</div>
+			<div id="sl"></div>
+		</aside>
+		<ul>
+			<li><img src="博客详情_Images/开心消消乐_10.jpg" width="800px" height="360px" /></li>
+			<li><img src="博客详情_Images/开心消消乐_4.jpg" width="800px" height="360px" /></li>
+			<li><img src="博客详情_Images/开心消消乐_5.jpg" width="800px" height="360px" /></li>
+			<li><img src="博客详情_Images/开心消消乐_6.jpg" width="800px" height="360px" /></li>
+			<li><img src="博客详情_Images/开心消消乐_7.jpg" width="800px" height="360px" /></li>
+		</ul>
+		<div id="xq">
+			<a href="https://xxl.happyelements.com/"><h2>开心消消乐</a></h2>
+			<a id="data">
+				<img src="博客详情_Images/日历,日期.svg" width="20px" height="20px"/>
+				<span>2021/12/02</span>
+			</a>
+			<a id="pl" href="#pl1">
+				<img src="博客详情_Images/评论 (3).svg" width="20px" height="20px"/>
+				<span>7</span>
+			</a>
+			<p>《开心消消乐》是一款乐元素研发的一款三消类休闲游戏。2013年8月，正式在网页版上线，2014年2月推出iOS版本，2014年4月推出安卓版本。</p>
+			<p>游戏以救村长为目的，玩家开始了一段开心的闯关旅程。</p>
+			<h3>更新提示</h3>
+			<ol>
+				<li>海洋玩法 —— 打碎冰层救出可爱动物！</li>
+				<li>蜗牛竞速 —— 消除障碍冲刺终点！</li>
+				<li>炫酷特效 —— 超爽快的特效体验！</li>
+				<li>全新周赛 —— 装扮宠物赢好礼！</li>
+				<li>奇妙岛屿 —— 打造专属你的世外桃源！</li>
+			</ol>
+			<h2 id="pl1">评论</h2>
+			<form action="#" method="get">
+				<p><input type="text" placeholder="姓名" size="80" /></p>
+				<p><input type="email" placeholder="邮箱" size="80" /></p>
+				<p><input type="text" placeholder="主题" size="80" /></p>
+				<p><textarea name="word" cols="77" rows="10"></textarea></p>
+				<p><button type="submit">提交</button></p>
+			</form>
+			<div id="pl2">
+				<div class="pl">
+					<img src="博客详情_Images/11.jpg" />
+					<span>爱</span>
+			    </div>
+				<p>自从有了开心<img src="博客详情_Images/龇牙笑.svg" width="20px" />消消乐，我就一直在玩。就是喜欢百玩不厌</p>
+				<div class="plft">
+					<span>昨天</span>
+					<div class="pfr">
+						<span class="hf">回复</span>
+						<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+						<span>4</span>
+						<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+					</div>
+				</div>
+				<div class="pl3">
+					<div class="pl">
+						<img src="博客详情_Images/12.jpg" />
+						<span>冰</span>
+					</div>
+					<p>
+						消消乐挺好玩滴！特别是在心情不愉快时可以进来把声音开到顶！打得太痛快了！一下子就可以消完内心所有的不快乐！
+					</p>
+					<div class="plft">
+						<span>昨天</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>6</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+					<div class="pl">
+						<img src="博客详情_Images/1.jpeg" />
+						<span>一</span>
+					</div>
+					<p>超级好玩，超解压</p>
+					<div class="plft">
+						<span>1月05日</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>6</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+					<div class="pl">
+						<img src="博客详情_Images/2.jpg" />
+						<span>快</span>
+					</div>
+					<p>一款玩了最久的游戏</p>
+					<div class="plft">
+						<span>1月05日</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>5</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+					<div class="pl">
+						<img src="博客详情_Images/10.jpg" />
+						<span>猎</span>
+					</div>
+					<p>手机里唯一不卸载的app</p>
+					<div class="plft">
+						<span>1月05日</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>3</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+					<div class="pl">
+						<img src="博客详情_Images/3.jpg" />
+						<span>薛</span>
+					</div>
+					<p>天下游戏千千万，唯有消消乐得我心！</p>
+					<div class="plft">
+						<span>1月05日</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>10</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+					<div class="pl">
+						<img src="博客详情_Images/4.jpg" />
+						<span>蓝</span>
+					</div>
+					<p>玩了四五年 还真不错</p>
+					<div class="plft">
+						<span>1月05日</span>
+						<div class="pfr">
+							<span class="hf">回复</span>
+							<img class="dz" src="博客详情_Images/点赞.svg" width="40px" />
+							<span>9</span>
+							<img class="jb" src="博客详情_Images/不喜欢.svg" width="40px" />
+						</div>
+					</div>
+				</div>
+				<div class="new">
+						<p id="open"><span id="open1">展开更多评论<img src="博客详情_Images/展开.svg" width="20px"/></span></p>
+						<p id="close"><span id="close1">收起评论<img src="博客详情_Images/收起.svg" width="20px"/></span></p>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<div id="bkft">
+				<a href="html/index.html"><h5>主页</h5></a>
+				<a href="html作业/游戏列表1-7.html"><h5>博客</h5></a>
+				<a href="html作业/关于我们1-7.html"><h5>关于我们</h5></a>
+			</div>
+			<div id="bkft1">
+				<span id="bkft2">游戏公园</span>
+				<span>设计by<a id="myspan" href="html作业/关于我们1-7.html">啊对对对队</a></span>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		    window.onload=function(){
+		    	var open=document.getElementById("open");
+		    	var close=document.getElementById("close");
+		    	var zksq=document.getElementsByClassName("pl3");
+		    	
+		    	open.onclick=function(){
+		    		zksq[0].style.height="1000px";
+		    		open.style.display="none";
+		    		close.style.display="block";
+		    	};
+		    	close.onclick=function(){
+		    		zksq[0].style.height="20px";
+		    		open.style.display="block";
+		    		close.style.display="none";
+		    	};
+		    };
+		</script>
+	</body>
+</html>
